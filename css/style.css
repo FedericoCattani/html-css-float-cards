@@ -1,0 +1,95 @@
+/*CSS Reset*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*/CSS Reset*/
+
+
+
+/*Generic Rules*/
+body{
+  font-family: 'Fredoka', sans-serif;
+  background-color: #FFFFFE;
+}
+
+
+
+.container{
+  width: 60%;         
+  margin: 0 auto;
+}
+/*/Generic Rules*/
+
+
+
+/*Titolo e paragrafo*/
+.container h1{
+  color: #E53170;
+  text-align: center;
+  padding-top: 38px;
+  font-size: 40px;
+}
+
+
+
+.container p{
+  text-align: center;
+  margin: 55px 0;
+  font-size: 18px;
+}
+/*/Titolo e paragrafo*/
+
+
+
+/*struttura cards*/
+.row {
+  width: calc(100% / 3 - 20px);
+  height: 80px;
+  background-color: #0F0E17;
+  float: left;
+  margin: 0 10px 20px;
+  box-shadow: 10px 10px 5px #cbc6c6;
+}
+
+
+
+.row .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+.row img{
+  float: left;
+  height: 100%;
+  margin-right: 10px;
+}
+
+
+
+.row .name{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+
+
+.row .email{
+  color: #17ADE8;
+  cursor: pointer;
+}
+
+
+
+.row .name,.profession{
+  color: white;
+}
+
+/*/struttura cards*/
